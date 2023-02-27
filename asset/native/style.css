@@ -1,0 +1,561 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dosis&family=Inter:wght@100&family=Lora:ital,wght@0,400;1,500&family=Montserrat:wght@100;400;500&family=Noto+Serif&family=Poppins:wght@100;300;400&family=Smooch&family=Work+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@keyframes gerak {
+    0% {
+        padding: 0;
+    }
+    25% {
+        padding: 0 1px;
+    }
+    50% {
+        padding: 0;
+    }
+    75% {
+        padding: 0 1px;
+    }
+    100% {
+        padding: 0;
+    }
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+
+
+/* Modal */
+
+#isi-content {
+    overflow-x: hidden;
+}
+
+#isi-content {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.modal-name {
+    font-size: 2.9em;
+    color: #89522B;
+    font-family: 'Dancing Script', sans-serif;
+    margin-right: 50px;
+}
+
+.modal-dan {
+    font-size: 2.5em;
+    color: #89522B;
+    font-family: 'Dancing Script', sans-serif;
+}
+
+.modal-name2 {
+    font-size: 2.9em;
+    color: #89522B;
+    font-family: 'Dancing Script', sans-serif;
+    margin-left: 50px;
+}
+
+.modal-title {
+    font-size: 2.2em;
+    color: #89522B;
+    font-family: 'Dancing Script', sans-serif;
+}
+
+.buka-undangan {
+    color: #fff;
+    margin-top: 30px;
+    border-radius: 50%;
+    background-color: #89522B;
+    padding: 10px;
+}
+
+
+/* Modal */
+
+
+/*Counter*/
+
+.counters {
+    margin: 0 auto;
+    max-width: 380px;
+}
+
+.count-box {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: #131111;
+    margin-left: 10px;
+    font-family: 'Lobster', cursive;
+    font-weight: 600;
+    width: 60px;
+    font-size: 1em;
+}
+
+
+/*Halaman Awal*/
+
+.vector-1 {
+    width: 150px;
+}
+
+.pembuka-1 {
+    font-size: 2em;
+    color: #89522B;
+    font-family: 'Dancing Script', sans-serif;
+    margin-top: 10px;
+}
+
+.pembuka-tanggal {
+    font-size: 1.5em;
+    color: #89522B;
+    font-family: 'Lobster', cursive;
+}
+
+.pembuka-name {
+    font-size: 2em;
+    color: #89522B;
+    font-family: 'Dancing Script', sans-serif;
+    margin-right: 50px;
+}
+
+.pembuka-dan {
+    font-size: 1.5em;
+    margin-top: -20px;
+    color: #89522B;
+    font-family: 'Dancing Script', sans-serif;
+}
+
+.pembuka-name2 {
+    margin-top: -20px;
+    font-size: 2em;
+    color: #89522B;
+    font-family: 'Dancing Script', sans-serif;
+    margin-left: 50px;
+}
+
+.love-vector {
+    width: 180px;
+}
+
+
+/*Halaman Awal*/
+
+
+/*Pengantin*/
+
+.pengantin-title {
+    font-size: 1em;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    width: 350px;
+    margin: 20px auto;
+}
+
+.pengantin-profile {
+    object-fit: cover;
+    width: 170px;
+    margin-top: 50px;
+    height: 170px;
+    border-radius: 50%;
+}
+
+.nama-pengantin {
+    margin-top: 10px;
+    font-size: 1.4em;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+}
+
+.orangtua-pengantin {
+    font-size: 1em;
+    margin-top: -10px;
+    font-family: 'Dosis', sans-serif;
+}
+
+
+/*Pengantin*/
+
+
+/*Acara*/
+
+.icon-lamaran {
+    width: 120px;
+    margin-top: 20px;
+}
+
+.acara-heads {
+    font-family: 'Lobster', cursive;
+    margin-top: 25px;
+    font-size: 1.7em;
+    margin-bottom: 30px;
+}
+
+.cards-contents {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.1em;
+    font-weight: 550;
+    text-align: justify;
+}
+
+.card-list-undangan {
+    width: 380px;
+    padding: 10px 5px;
+    border: 2px solid #89522B;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.cards-body {
+    padding: 20px 10px 10px 10px;
+}
+
+.icons-acara {
+    margin-left: 9px;
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.maps {
+    max-width: 500px;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    border: 3px solid #89522B;
+    margin: 50px auto;
+    padding: 0;
+    object-fit: cover;
+}
+
+.link-maps {
+    background-color: #89522B;
+    border-radius: 5px;
+    max-width: 500px;
+    width: 150px;
+    position: relative;
+    color: #fff;
+    font-family: 'Lobster', cursive;
+}
+
+
+/*Acara*/
+
+
+/*Undangan*/
+
+.mengundang-title {
+    font-family: 'Lobster', cursive;
+    font-size: 1.4em;
+}
+
+.mengundang-sub {
+    font-family: 'Dosis', sans-serif;
+    width: 350px;
+    margin: 0 auto;
+    font-size: 1.1em;
+}
+
+.card-list-undangan {
+    width: 360px;
+    padding: 10px 5px;
+    border: 2px solid #89522B;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.undangan-list {
+    font-family: 'Dosis', sans-serif;
+}
+
+.kmb {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.1em;
+    margin-top: 20px;
+}
+
+.kelbesar {
+    max-width: 380px;
+    margin: 0 auto;
+}
+
+.keluarga-besar {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1em;
+    width: 150px;
+}
+
+
+/*Carousel*/
+
+.photo-titles {
+    font-family: 'Lobster', cursive;
+    font-size: 1.7em;
+}
+
+.carousels {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.gambar-gallery {
+    width: 350px;
+    object-fit: cover;
+    height: 300px;
+}
+
+.carousel-indicators {
+    position: absolute;
+    max-width: 380px;
+    width: 380px;
+    overflow-x: visible;
+    display: flex;
+    justify-content: center;
+    margin-top: 320px;
+    padding-left: 0;
+}
+
+.gambar-gallery-indikator-btn {
+    width: 300px;
+    object-fit: cover;
+    border: none;
+    margin-left: 10px;
+    padding: 0;
+    position: relative;
+}
+
+.gambar-gallery-indikator {
+    width: 300px;
+    object-fit: cover;
+    height: 60px;
+}
+
+
+/*Carousel*/
+
+
+/*Komentar*/
+
+.ucapan-text-heads {
+    font-family: 'Lobster', cursive;
+    color: #000;
+    margin-top: 30px;
+    font-size: 1.8em;
+}
+
+.ucapan-text-heads1 {
+    font-family: 'Dosis', sans-serif;
+    color: #000;
+    max-width: 340px;
+    margin: 0 auto;
+    font-size: 1.2em;
+}
+
+.title-forms {
+    width: 400px;
+    padding: 7px;
+    background-color: #89522B;
+    color: #fff;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.2em;
+    margin: 0 auto;
+}
+
+.info-kehadiran {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.kehadiran {
+    text-align: center;
+    padding: 8px 5px;
+    border-radius: 5px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 0..9em;
+    color: #fff;
+}
+
+.form-ucapan {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.form-label {
+    font-family: 'Dosis', sans-serif;
+}
+
+.form-select {
+    font-family: 'Dosis', sans-serif;
+}
+
+.kirim {
+    font-family: 'Dosis', sans-serif;
+    background-color: #89522B;
+    color: #fff;
+}
+
+.ucapan-komentar {
+    width: 400px;
+    border: 1px solid #89522B;
+    margin: 0 auto;
+    max-height: 300px;
+    overflow-y: auto;
+    border-radius: 3px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.nama-komentar {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1em;
+    position: relative;
+}
+
+.pesan-komentar {
+    font-family: 'Dosis', sans-serif;
+    font-size: 0.9em;
+    position: relative;
+}
+
+
+/*Hadis*/
+
+.hadis {
+    font-size: 1em;
+    width: 320px;
+    margin: 0 auto;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+}
+
+
+/*Hadis*/
+
+.img-nav {
+    width: 40px;
+}
+
+.img-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.responsive-nav {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.navbar {
+    border: 1px solid #89522B;
+}
+
+.pause-play {
+    border-radius: 20%;
+    cursor: pointer;
+    margin-top: -200px;
+    text-align: right;
+    background-color: #89522B;
+    color: #fff;
+}
+
+@media screen and (min-width: 809px) {}
+
+@media screen and (min-width: 400px) and (max-width: 810px) {}
+
+
+/*Android*/
+
+@media screen and (max-width: 1000px) {
+    #isi-content {
+        max-width: 380px;
+        margin: 0 auto;
+    }
+    .pembuka-1 {
+        font-size: 1.7em;
+    }
+    .card-list-undangan {
+        width: 350px;
+    }
+    .maps {
+        max-width: 380px;
+        width: 350px;
+        height: 300px;
+    }
+    .carousels {
+        max-width: 320px;
+        margin: 0 auto;
+    }
+    .gambar-gallery {
+        width: 230px;
+        object-fit: cover;
+        height: 230px;
+    }
+    .carousel-indicators {
+        position: absolute;
+        max-width: 295px;
+        width: 300px;
+        overflow-x: visible;
+        display: flex;
+        justify-content: center;
+        margin-top: 250px;
+        padding-left: 0;
+    }
+    .gambar-gallery-indikator-btn {
+        width: 230px;
+        object-fit: cover;
+        border: none;
+        margin-left: 10px;
+        padding: 0;
+        position: relative;
+    }
+    .gambar-gallery-indikator {
+        width: 230px;
+        object-fit: cover;
+        height: 60px;
+    }
+    .ucapan-text-heads {
+        font-family: 'Lobster', cursive;
+        color: #000;
+        margin-top: 30px;
+        font-size: 1.8em;
+    }
+    .ucapan-text-heads1 {
+        font-size: 1.2em;
+    }
+    .title-forms {
+        width: 320px;
+        margin: 0 auto;
+    }
+    .info-kehadiran {
+        width: 320px;
+        margin: 0 auto;
+    }
+    .kehadiran {
+        padding: 8px 5px;
+        font-size: 0.9em;
+        color: #fff;
+    }
+    .form-ucapan {
+        width: 320px;
+    }
+    .ucapan-komentar {
+        width: 320px;
+        border: 1px solid #89522B;
+        margin: 0 auto;
+        overflow-y: auto;
+        margin-bottom: 78px;
+    }
+    .nama-komentar {
+        font-family: 'Dosis', sans-serif;
+        font-size: 0.9em;
+    }
+    .pesan-komentar {
+        font-family: 'Dosis', sans-serif;
+        font-size: 0.8em;
+    }
+}
